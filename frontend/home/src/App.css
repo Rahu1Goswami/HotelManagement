@@ -1,28 +1,31 @@
+/* 
 
+.app-container {
+  display: flex;
+  height: 100vh; 
+}
 
 .main-content {
-  margin-left: 250px; 
-  margin-top: 80px; 
+  flex-grow: 1;
   padding: 20px;
-  background-color: #f1f3f5;
-  min-height: 100vh; 
+  background-color: #f8f8f8;
+  min-height: 100vh;
 }
 
+.full-width {
+  width: 100%;
+  padding: 40px; 
+}
 
-.reservations-table {
+.sidebar {
+  width: 250px;
+  background-color: #fff;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.header {
   background-color: #fff;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-/* Reset some common elements */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f8f9fa; /* Light background to match the UI */
-}
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+} */

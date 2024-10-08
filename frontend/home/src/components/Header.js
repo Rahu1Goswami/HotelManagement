@@ -8,6 +8,7 @@ const Header = () => {
       <input type="text" placeholder="Search..." className="search-input" />
       <div className="user-actions">
         <button className="add-booking"onClick={()=>navigate('/booking')}>Add Booking</button>
+        <hr />
       </div>
     </div>
   );

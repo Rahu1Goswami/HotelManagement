@@ -10,8 +10,7 @@
   height: 80px;
   position: fixed;
   top: 0;
-  /* width: calc(100% - 250px); Responsive width accounting for sidebar */
-  gap: 30px;
+  width: calc(100% - 300px); 
 }
 
 /* Search input styling */
@@ -55,4 +54,7 @@
 .profile span {
   font-size: 16px;
   font-weight: bold;
+}
+body{
+  width: 100%;
 }
