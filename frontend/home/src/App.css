@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
+
+
+.main-content {
+  margin-left: 250px; 
+  margin-top: 80px; 
+  padding: 20px;
+  background-color: #f1f3f5;
+  min-height: 100vh; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.reservations-table {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* Reset some common elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light background to match the UI */
 }
